@@ -6,4 +6,8 @@ const init = () => {
   initRouter();
 }
 
+/* para probar si firebase funcionó */
+let app = firebase.app();
+console.log(app);
+
 window.addEventListener('load', init);
